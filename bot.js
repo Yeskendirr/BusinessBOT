@@ -26,8 +26,8 @@ function generateHtmlWithQrCode(qrCodeUrl) {
             <title>WhatsApp Bot</title>
         </head>
         <body>
-            <h1>Welcome to WhatsApp Bot</h1>
-            <p>To connect your WhatsApp account, scan the QR code below:</p>
+            <h1>WhatsApp Bot-қа қош келдіңіз!</h1>
+            <p>Қосылу үшін QR-ды WhatsApp бағдарламасында сканерлеңіз:</p>
             <div id="qr-container">
                 <img src="${qrCodeUrl}" alt="QR Code" />
             </div>
